@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400, 300, 600);
+ * {
+    padding:0;
+    margin:0;
+}
+body {
+  background:url('http://dribbble.com/images/attachments/attachments-bg.png?1');
+    background-color:#2a2a2a;
+    font-family:'Open Sans', sans-serif;
+}
+#container {
+    background-color: #111216;
+    color:#999999;
+    width:350px;
+    margin: 50px auto auto auto;
+    padding-bottom:12px;
+}
+#formContainer {
+    padding-top:12px
+}
+#taskIOSection {
+}
+#taskInput {
+ 
+    font-size:14px;
+    font-family:'Open Sans', sans-serif;
+    height:36px;
+    width:311px;
+    border-radius:100px;
+    background-color:#202023;
+    border:0;
+    color:#fff;
+    display:block;
+    padding-left:15px;
+   -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+}
+#taskInput:focus{
+  box-shadow: 0px 0px 1pt 1pt #999999;
+ background-color:#111216; 
+  outline:none;
+}
+::-webkit-input-placeholder {
+    color: #333333;
+    font-style:italic;
+    /* padding-left:10px; */
+}
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #333333;
+    font-style:italic;
+}
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #333333;
+    font-style:italic;
+}
+:-ms-input-placeholder {
+    color: #333333;
+    font-style:italic;
+}
+header {
+    margin-top:0;
+    background-color:#F94D50;
+    width:338px;
+    height:48px;
+    padding-left:12px;
+}
+header h1 {
+    font-size:25px;
+    font-weight:300;
+    color:#fff;
+    line-height:48px;
+  width:50%;
+  display:inline;
+}
+header a{
+  
+  width:40%;
+  display:inline;
+  line-height:48px;
+}
+#taskEntryForm {
+    background-color:#111216;
+    width:326px;
+    height: 48px;
+    border-width:0px;
+    padding: 0px 12px 0px 12px;
+    font-size:0px;
+}
+#taskList {
+    width: 350px;
+    margin:auto;
+    font-size:19px;
+    font-weight:600;
+}
+ul li {
+    background-color:#17181D;
+    height:48px;
+    width:314px;
+    padding-left:12px;
+    margin:0 auto 10px auto;
+    line-height:48px;
+    list-style:none;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
