@@ -1,7 +1,7 @@
 let origboard;
 const  huplayer='0';
 const aiplayer='x';
-const wincombos=[
+const winCombos=[
     [0 ,1,2],
     [3,4,5],
     [6,7,8],
@@ -41,8 +41,8 @@ turn(square.target.id, huplayer)
      let plays=board.reduce((a,e,i) =>
   (e===player)  ? a.concat(i): a,[]);
 let gamewon=null;
-for(let [index,win] of wincombos.enteries()){
-    if (win.every(elem=> plays.indexof(elem)>-1)){
+for(let [index,win] of winCombos.entries()){
+    if (win.every(elem => plays.indexOf (elem) >-1)){
         gamewon={index: index,player:player};
         break;
     }
@@ -50,11 +50,11 @@ for(let [index,win] of wincombos.enteries()){
 return gamewon;
  }
  function gameover(gamewon){
-     for (let index of wincombos[gamewon.index]){
+     for (let index of winCombos[gamewon.index]){
          document.getElementById(index).style.backgroundColor='blue';
          gamewon.player== huplayer? "blue":"red";
      }
-     for(var i=0; i<cells.length;i++){
+     for(var i=0; i<cells.length; i++){
          cells[i].removeEventListener('click',turnclick,false);
      }
      declareWinner(gamewon.player== huplayer ? "you win":" you lose");
