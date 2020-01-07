@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1px;
+  
+  width:500px;
+ 
+  height: 100px;  
+ padding-left: 500px;
+background-color: black;
+ 
+  
+
+}
+
+.grid-container > div {
+ 
+  text-align: center; 
+  padding: 20px ;
+  font-size: 30px;
+
+  
+  }
+
+
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 10;
+      grid-row-start: 1; 
+  grid-row-end: 1; 
+  background-color: #FF6347;
+
+}
+.item6 {
+  grid-column-start: 5;
+  grid-column-end: 10;
+ 
+}
+.item7 {
+         grid-row-start: 3; 
+  grid-row-end: 5; 
+  background-color: 	#00BFFF;
+  
+ 
+    }
+    .item8 {
+      grid-column-start: 2;
+  grid-column-end: 9;
+         grid-row-start: 3; 
+  grid-row-end: 7; 
+  background-color: #87CEFA;
+  padding-bottom: 2px;
+
+    }
+    
+   
+    
+.item10 {
+   grid-row-start: 5; 
+  grid-row-end: 7; 
+  padding-bottom: 5px;
+  background-color: #FF4500;
+
+    }
+    
+    .item9 {
+         grid-row-start: 3; 
+  grid-row-end: 8; 
+    grid-column-start: 9;
+  grid-column-end: 9;
+  background-color: #8A2BE2;
+    }
+    
+   
+    .item11 {
+       grid-column-start: 1;
+  grid-column-end: 9;
+  background-color:#32CD32;
+    }
+    .item2{
+        background-color:#32CD32;
+    }
+   .item3{
+    background-color:	#FFA500;
+   }
+   .item4{
+       background-color: 	#00BFFF;
+   }
+   .item5{
+        background-color:#32CD32;
+    }
+    .item6{
+    background-color:	#FFA500;
+   }
+ 
+    
+
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+  <div class="item1"> 1</div>
+  <div class="item2"> 2</div>
+  <div class="item3">3 </div>  
+  <div class="item4">4 </div>
+  <div class="item5">5 </div>
+  <div class="item6"> 6</div>
+  <div class="item7"> 7</div>
+  <div class="item8"> 8</div>  
+    <div class="item9">9 </div>  
+      <div class="item10">10 </div>  
+        <div class="item11">11 </div>
+
+      
+ 
+</div>
+
+
+
+</body>
+</html>
