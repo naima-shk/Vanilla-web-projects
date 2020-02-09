@@ -1,2 +1,2 @@
-# HTML-
-All the Practice of Basic HTML.
+# Vanilla-JS
+All the Practice of HTML, CSS ,Vanilla-JS.
