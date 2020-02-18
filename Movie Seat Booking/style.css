@@ -15,3 +15,40 @@ body {
   font-family: "Lato", sans-serif;
   margin: 0;
 }
+
+.movie-container {
+  margin: 20px 0;
+}
+
+.movie-container select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.seat {
+  background-color: #444451;
+  height: 12px;
+  width: 15px;
+  margin: 3px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.seat.Selected {
+  background-color: #6feaf6;
+}
+
+.seat.Occupied {
+  background-color: #fff;
+}
