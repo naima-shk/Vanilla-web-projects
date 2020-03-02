@@ -7,20 +7,45 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="myDIV" class="header">
-      <h2>My To Do List</h2>
-      <input type="text" id="myInput" placeholder="Title..." />
-      <span onclick="newElement()" class="addBtn">Add</span>
-    </div>
+    <link
+      href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css"
+      rel="stylesheet"
+    />
 
-    <ul id="myUL">
-      <li>Hit the gym</li>
-      <li class="checked">Pay bills</li>
-      <li>Meet George</li>
-      <li>Buy eggs</li>
-      <li>Read a book</li>
-      <li>Organize office</li>
-    </ul>
+    <div class="container">
+      <h1 class="text-center">My To-do List</h1>
+
+      <div class="row list-head">
+        <div class="col-md-12">
+          <input
+            type="text"
+            placeholder="Enter a List Item"
+            style="width: 100%"
+            id="todoTextInput"
+            onkeyup="handlers.addTodo(event)"
+          />
+        </div>
+      </div>
+
+      <div class="row list-container">
+        <div class="col-md-12">
+          <ul id="todoList"></ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <button class="btn" style="width: 100%" id="clearAll">
+            Clear All
+          </button>
+          <button class="btn" style="width: 100%">Clear Selected</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center"><i>Created by Naima</i></p>
+        </div>
+      </div>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>

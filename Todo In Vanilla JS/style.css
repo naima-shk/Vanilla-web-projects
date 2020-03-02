@@ -1,114 +1,117 @@
-/* Include the padding and border in an element's total width and height */
 * {
   box-sizing: border-box;
 }
 
-/* Remove margins and padding from the list */
-ul {
+body {
   margin: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #eeeeee !important;
+}
+
+h1 {
+  background-color: green;
+  padding: 30px 40px;
+  color: blcak;
+  text-align: center;
+}
+
+p {
+  opacity: 0.3;
+}
+
+.container {
+  min-height: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50% !important;
+}
+#todoTextInput {
+  background-color: white;
+  opacity: 0.7;
+  box-shadow: 1px 1px 10px rgba(5, 5, 5, 0.2);
+  height: 50px;
+  padding: 10px;
+  border: none;
+  font-style: italic;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none !important;
+  border-bottom: 1px solid rgba(5, 5, 5, 0.1);
+  padding: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgba(5, 5, 5, 0.2);
+  min-width: inherit;
+}
+li a {
+  float: right;
+  padding-right: 10px;
+  opacity: 0.3 !important;
+  transition: 0.2s;
+}
+
+li a:hover {
+  opacity: 1 !important;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid rgba(5, 5, 5, 0.01);
+  background-color: inherit;
+}
+li input[type="text"] {
+  padding: none;
+  border: none;
+  width: 80%;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+
+.activeTextInput {
+  box-shadow: 1px 1px 10px rgba(5, 5, 5, 0.1);
+  padding: 10px !important;
+}
+
+input[type="text"] {
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid rgba(5, 5, 5, 0.01);
   padding: 0;
 }
-
-/* Style the list items */
-ul li {
-  cursor: pointer;
-  position: relative;
-  padding: 12px 8px 12px 40px;
-  background: #eee;
-  font-size: 18px;
-  transition: 0.2s;
-
-  /* make the list items unselectable */
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+input:focus {
+  outline: none;
 }
 
-/* Set all odd list items to a different color (zebra-stripes) */
-ul li:nth-child(odd) {
-  background: #f9f9f9;
-}
-
-/* Darker background-color on hover */
-ul li:hover {
-  background: #ddd;
-}
-
-/* When clicked on, add a background color and strike out text */
-ul li.checked {
-  background: #888;
-  color: #fff;
+input:checked + input[type="text"] {
   text-decoration: line-through;
+  opacity: 0.5;
 }
 
-/* Add a "checked" mark when clicked on */
-ul li.checked::before {
-  content: "";
-  position: absolute;
-  border-color: #fff;
-  border-style: solid;
-  border-width: 0 2px 2px 0;
-  top: 10px;
-  left: 16px;
-  transform: rotate(45deg);
-  height: 15px;
-  width: 7px;
+.btn {
+  background-color: white !important;
+  border-radius: 0 !important;
+  padding: 0;
+  box-shadow: 1px 1px 10px rgba(5, 5, 5, 0.2);
+  margin-top: -2px !important;
+  font-style: italic;
+  opacity: 0.5;
+}
+#clearAll {
+  margin-top: -21px !important;
 }
 
-/* Style the close button */
-.close {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 12px 16px 12px 16px;
-}
-
-.close:hover {
-  background-color: green;
-  color: white;
-}
-
-/* Style the header */
-.header {
-  background-color: black;
-  padding: 30px 40px;
-  color: white;
-  text-align: center;
-}
-
-/* Clear floats after the header */
-.header:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the input */
-input {
-  margin: 0;
-  border: none;
-  border-radius: 0;
-  width: 75%;
-  padding: 10px;
-  float: left;
-  font-size: 16px;
-}
-
-/* Style the "Add" button */
-.addBtn {
-  padding: 10px;
-  width: 25%;
-  background: #d9d9d9;
-  color: #555;
-  float: left;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s;
-  border-radius: 0;
-}
-
-.addBtn:hover {
-  background-color: #bbb;
+.hidden {
+  display: none !important;
+  background-color: red !important;
 }
