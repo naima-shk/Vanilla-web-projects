@@ -1,2 +1,2 @@
-# Vanilla-JS
-All the Practice of HTML, CSS ,Vanilla-JS.
+# Vanilla-web-projects
+All the Projects  of HTML, CSS ,Vanilla-JS.
