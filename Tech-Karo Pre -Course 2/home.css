@@ -1,9 +1,36 @@
-div {
-    background-color: pink;
-    width: 1500px;
+ .col {
+    background-color: lightcoral;
+    width: 1450px;
     
-    padding: 63px;
-    margin: 140px;
+    padding: 55px;
+    margin: 120px;
     margin-left: 0px;
     margin-right: 0px;
-  }
+     }
+     img{
+         padding-left: 1250px;
+         width: 180px;
+         height:140px;
+     }
+
+     .row{
+        padding-right: 300px;
+        width:100px;
+        height:100px;
+        margin-right:120px;
+        display:block;
+        
+        
+     }
+    p{
+        text-align: center;
+        padding-left: 150px;
+        padding-right: 100px;
+    }
+    h1{
+        text-align: center;
+        padding-left: 100px;
+    }
+    img{
+        padding-right: 100px;
+    }
