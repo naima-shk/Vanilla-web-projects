@@ -14,11 +14,14 @@
      }
 
      .row{
-        padding-right: 300px;
+        padding-right: 500px;
+       
         width:100px;
         height:100px;
-        margin-right:120px;
+        margin-right:0px;
+        margin-left: 0px;
         display:block;
+        position:relative;
         
         
      }
