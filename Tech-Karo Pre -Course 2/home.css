@@ -1,4 +1,4 @@
- .col {
+.letscode{
     background-color: lightcoral;
     width: 1450px;
     
@@ -7,13 +7,13 @@
     margin-left: 0px;
     margin-right: 0px;
      }
-     img{
+     #col{
          padding-left: 1250px;
          width: 180px;
          height:140px;
      }
 
-     .row{
+     #let{
         padding-right: 500px;
        
         width:100px;
@@ -22,6 +22,7 @@
         margin-left: 0px;
         display:block;
         position:relative;
+        margin-top: 200px;
         
         
      }
@@ -36,4 +37,28 @@
     }
     img{
         padding-right: 100px;
+    }
+
+    .leap{
+       
+        }
+    #do{
+        font-family:   sans-serif;
+        white-space: normal;
+       
+    }
+    #home{
+        font-family: sans-serif;
+        padding-left: 900px;
+      
+       
+        
+    }
+    #contact{
+        font-family: sans-serif;
+        width:10px;
+        
+        
+       
+       
     }
