@@ -1,7 +1,6 @@
 .letscode{
     background-color: lightcoral;
     width: 1450px;
-    
     padding: 55px;
     margin: 120px;
     margin-left: 0px;
@@ -12,7 +11,6 @@
          width: 180px;
          height:140px;
      }
-
      #let{
         padding-right: 500px;
        
@@ -22,7 +20,7 @@
         margin-left: 0px;
         display:block;
         position:relative;
-        margin-top: 200px;
+        margin-top: 0px;
         
         
      }
@@ -35,30 +33,24 @@
         text-align: center;
         padding-left: 100px;
     }
-    img{
-        padding-right: 100px;
+    #tech{
+        padding-left: 600px;
+        width:400px;
+        height:300px;
     }
 
     .leap{
-       
+       margin-bottom: 100px;
         }
     #do{
         font-family:   sans-serif;
         white-space: normal;
+        position: relative;
        
     }
     #home{
         font-family: sans-serif;
         padding-left: 900px;
-      
-       
-        
+        white-space: nowrap;
     }
-    #contact{
-        font-family: sans-serif;
-        width:10px;
-        
-        
-       
-       
-    }
+    

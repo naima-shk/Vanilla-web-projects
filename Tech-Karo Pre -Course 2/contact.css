@@ -1,0 +1,58 @@
+.code{
+    background-color: lightcoral;
+    width: 1550px;
+    padding: 55px;
+    margin: 120px;
+    margin-left: 0px;
+    margin-right: 0px;
+     }
+     #column{
+         padding-left: 1250px;
+         width: 180px;
+         height:140px;
+     }
+
+#let{
+    padding-right: 500px;
+   
+    width:100px;
+    height:100px;
+    margin-right:0px;
+    margin-left: 0px;
+    display:block;
+    position:relative;
+    margin-top: 0px;
+    
+    
+ }
+
+.leap{
+    margin-bottom: 100px;
+     }
+ #do{
+     font-family:   sans-serif;
+     white-space: normal;
+     position: relative;
+    
+ }
+ #home{
+     font-family: sans-serif;
+     padding-left: 900px;
+     white-space: nowrap;
+ }
+ h1{
+     padding-left: 600px;
+ }
+ p{
+     padding-left: 600px ;
+     font-family: sans-serif;
+ }
+ #main{
+     padding-left: 500px;
+ }
+ #main1{
+    padding-left: 90px;
+}
+#main2{
+    padding-left: 90px;
+}
