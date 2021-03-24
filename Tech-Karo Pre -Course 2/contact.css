@@ -2,7 +2,7 @@
     background-color: lightcoral;
     width: 1550px;
     padding: 55px;
-    margin: 120px;
+    margin: 100px;
     margin-left: 0px;
     margin-right: 0px;
      }
@@ -33,6 +33,8 @@
      font-family:   sans-serif;
      white-space: normal;
      position: relative;
+     transform: translateY(-5.5em);
+     word-spacing: 7px;
     
  }
  #home{
@@ -42,6 +44,7 @@
  }
  h1{
      padding-left: 600px;
+     font-family: sans-serif;
  }
  p{
      padding-left: 600px ;

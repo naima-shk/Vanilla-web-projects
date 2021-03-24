@@ -32,6 +32,7 @@
     h1{
         text-align: center;
         padding-left: 100px;
+        font-family: sans-serif;
     }
     #tech{
         padding-left: 600px;
@@ -46,11 +47,14 @@
         font-family:   sans-serif;
         white-space: normal;
         position: relative;
-       
+        transform: translateY(-5.5em);
+        word-spacing: 10px;
+       padding-right: 50px;
     }
     #home{
         font-family: sans-serif;
         padding-left: 900px;
         white-space: nowrap;
+        
     }
     
