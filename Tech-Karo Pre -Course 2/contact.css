@@ -14,7 +14,7 @@
 
 #let{
     padding-right: 500px;
-    padding-left: 30px;
+    padding-left: 50px;
     width:100px;
     height:100px;
     margin-right:0px;
@@ -33,13 +33,27 @@
     padding-left: 1300px;
     margin-left: 10px;
     word-spacing: 17px;
-    font-family: sans-serif;
+  
    
   }
   
   li {
-    display: inline;
+    display: inline-block;
+  
   }
+  li a:hover:not(.active) {
+    background-color: gainsboro;
+  }
+  
+  li a{
+      
+      font-family: Arial;
+      text-decoration: none !important;
+      font-size: large;
+      color:black;
+    } 
+
+ 
  h1{
      padding-left: 600px;
      font-family: sans-serif;
