@@ -14,7 +14,7 @@
 
 #let{
     padding-right: 500px;
-   
+    padding-left: 30px;
     width:100px;
     height:100px;
     margin-right:0px;
@@ -26,22 +26,20 @@
     
  }
 
-.leap{
-    margin-bottom: 100px;
-     }
- #do{
-     font-family:   sans-serif;
-     white-space: normal;
-     position: relative;
-     transform: translateY(-5.5em);
-     word-spacing: 7px;
-    
- }
- #home{
-     font-family: sans-serif;
-     padding-left: 900px;
-     white-space: nowrap;
- }
+ ul {
+    transform: translateY(-4.5em);
+    list-style-type: none;
+    margin: 0;
+    padding-left: 1300px;
+    margin-left: 10px;
+    word-spacing: 17px;
+    font-family: sans-serif;
+   
+  }
+  
+  li {
+    display: inline;
+  }
  h1{
      padding-left: 600px;
      font-family: sans-serif;
